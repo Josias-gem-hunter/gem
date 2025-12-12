@@ -1,2 +1,1 @@
-# gem
-gem altcoins
+GEM hunters by gwyn allen scammer

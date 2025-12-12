@@ -1,54 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Online Store</title>
-<style>
-  body { font-family: Arial, sans-serif; background-color: #f8f8f8; margin: 0; padding: 0;}
-  header { background-color: #007bff; color: white; padding: 20px; text-align: center;}
-  h1 { margin: 0; }
-  .products { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px;}
-  .product { background: white; border: 1px solid #ddd; border-radius: 8px; margin: 10px; width: 200px; padding: 15px; text-align: center; }
-  .product img { width: 100%; height: auto; border-radius: 5px; }
-  .product h2 { font-size: 18px; margin: 10px 0 5px; }
-  .product p { margin: 5px 0; color: #555; }
-  .product a { display: inline-block; margin-top: 10px; padding: 8px 15px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; }
-  .product a:hover { background-color: #218838; }
-  footer { text-align: center; padding: 15px; background: #333; color: white; margin-top: 20px;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Investment Platform</title>
+    <style>
+        /* Background gradient */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        /* Header styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffdd59;
+        }
+
+        /* Hero section */
+        .hero {
+            text-align: center;
+            padding: 150px 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .hero button {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background-color: #ffdd59;
+            color: #000;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .hero button:hover {
+            background-color: #ffc107;
+        }
+
+        /* Features section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 80px 20px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            margin: 20px;
+            border-radius: 12px;
+            flex: 1 1 250px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .feature:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .feature h3 {
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>CryptoInvest</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Markets</a>
+            <a href="#">Trade</a>
+            <a href="#">Wallet</a>
+            <a href="#">Sign Up</a>
+        </nav>
+    </header>
 
-<header>
-  <h1>My Online Store</h1>
-  <p>Buy our awesome products online!</p>
-</header>
+    <section class="hero">
+        <h2>Invest in Crypto with Confidence</h2>
+        <p>Trade Bitcoin, Ethereum, and other top cryptocurrencies with our secure platform.</p>
+        <button>Get Started</button>
+    </section>
 
-<div class="products">
-  <div class="product">
-    <img src="https://via.placeholder.com/200" alt="Product 1">
-    <h2>Product 1</h2>
-    <p>₱500.00</p>
-    <a href="mailto:youremail@example.com?subject=Order Product 1">Buy Now</a>
-  </div>
-  <div class="product">
-    <img src="https://via.placeholder.com/200" alt="Product 2">
-    <h2>Product 2</h2>
-    <p>₱750.00</p>
-    <a href="mailto:youremail@example.com?subject=Order Product 2">Buy Now</a>
-  </div>
-  <div class="product">
-    <img src="https://via.placeholder.com/200" alt="Product 3">
-    <h2>Product 3</h2>
-    <p>₱1,200.00</p>
-    <a href="mailto:youremail@example.com?subject=Order Product 3">Buy Now</a>
-  </div>
-</div>
+    <section class="features">
+        <div class="feature">
+            <h3>Secure Trading</h3>
+            <p>Your funds are safe with our top-notch security protocols.</p>
+        </div>
+        <div class="feature">
+            <h3>Real-Time Data</h3>
+            <p>Stay updated with live market prices and trends.</p>
+        </div>
+        <div class="feature">
+            <h3>Low Fees</h3>
+            <p>Trade with minimal fees and maximize your returns.</p>
+        </div>
+    </section>
 
-<footer>
-  &copy; 2025 My Online Store | Contact us: youremail@example.com
-</footer>
-
+    <footer>
+        &copy; 2025 CryptoInvest. All rights reserved.
+    </footer>
 </body>
 </html>
